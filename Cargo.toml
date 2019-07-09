@@ -1,0 +1,8 @@
+[package]
+name = "agnostico"
+version = "0.1.0"
+authors = ["joxer"]
+edition = "2018"
+
+[dependencies]
+logos = "0.9.7"
