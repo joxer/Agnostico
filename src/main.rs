@@ -1,5 +1,5 @@
-use agnostico::lexer;
+use agnostico::{parser};
 
 fn main() {
-    lexer::run_lexer(&String::from("1 + 1"));
+    parser::Parser::parse(&String::from("(&& A B)"));
 }
