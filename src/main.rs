@@ -1,5 +1,5 @@
-use agnostico::{parser};
+use agnostico::parser;
 
 fn main() {
-    parser::Parser::parse(&String::from("(&& A B)"));
+    parser::Parser::parse(&String::from("(+ (+ 2 BC) 3)"));
 }

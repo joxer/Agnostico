@@ -2,6 +2,8 @@ use logos::Logos;
 
 #[derive(Logos, Debug, PartialEq, Clone)]
 pub enum StringToken {
+    Start,
+
     #[end]
     End,
 
